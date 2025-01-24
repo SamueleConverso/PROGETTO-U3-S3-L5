@@ -23,7 +23,7 @@ function Explore() {
           </div>
         </div>
 
-        <div className="col">
+        <div className="col" style={{ cursor: "pointer" }}>
           <div
             style={{
               backgroundColor: "#2A2A2A",
@@ -42,7 +42,7 @@ function Explore() {
           </div>
         </div>
 
-        <div className="col">
+        <div className="col" style={{ cursor: "pointer" }}>
           <div
             style={{
               backgroundColor: "#2A2A2A",
@@ -61,7 +61,7 @@ function Explore() {
           </div>
         </div>
 
-        <div className="col">
+        <div className="col" style={{ cursor: "pointer" }}>
           <div
             style={{
               backgroundColor: "#2A2A2A",
@@ -80,7 +80,7 @@ function Explore() {
           </div>
         </div>
 
-        <div className="col">
+        <div className="col" style={{ cursor: "pointer" }}>
           <div
             style={{
               backgroundColor: "#2A2A2A",
@@ -99,7 +99,7 @@ function Explore() {
           </div>
         </div>
 
-        <div className="col">
+        <div className="col" style={{ cursor: "pointer" }}>
           <div
             style={{
               backgroundColor: "#2A2A2A",
@@ -118,7 +118,7 @@ function Explore() {
           </div>
         </div>
 
-        <div className="col">
+        <div className="col" style={{ cursor: "pointer" }}>
           <div
             style={{
               backgroundColor: "#2A2A2A",
@@ -137,7 +137,7 @@ function Explore() {
           </div>
         </div>
 
-        <div className="col">
+        <div className="col" style={{ cursor: "pointer" }}>
           <div
             style={{
               backgroundColor: "#2A2A2A",
@@ -156,7 +156,7 @@ function Explore() {
           </div>
         </div>
 
-        <div className="col">
+        <div className="col" style={{ cursor: "pointer" }}>
           <div
             style={{
               backgroundColor: "#2A2A2A",
