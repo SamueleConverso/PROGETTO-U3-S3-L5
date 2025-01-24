@@ -64,11 +64,18 @@ function MyNavbarLg() {
         </div>
 
         <div className="mb-2">
-          <Form.Control
-            type="search"
-            placeholder="Cerca"
-            style={{ backgroundColor: "#1F1F1F", color: "white" }}
-          ></Form.Control>
+          <div className="d-flex">
+            <Icon.Search className="text-danger align-self-center" />
+            <Form.Control
+              type="search"
+              placeholder="Cerca"
+              style={{
+                backgroundColor: "#1F1F1F",
+                color: "white",
+                border: "0",
+              }}
+            ></Form.Control>
+          </div>
         </div>
 
         <div>
