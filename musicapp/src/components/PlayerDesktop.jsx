@@ -9,6 +9,7 @@ function PlayerDesktop() {
         position: "fixed",
         top: "0",
         padding: "4px",
+        maxWidth: "-200px",
       }}
     >
       <div className="row">
