@@ -69,7 +69,7 @@ function MyNavbarLg() {
             style={{
               backgroundColor: "#1F1F1F",
               borderRadius: "6px",
-              padding: "4px",
+              padding: "0px 4px",
             }}
           >
             <Icon.Search className="text-danger align-self-center" />
