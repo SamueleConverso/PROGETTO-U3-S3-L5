@@ -8,6 +8,7 @@ import Releases from "./components/Releases";
 import Explore from "./components/Explore";
 import MyFooter from "./components/MyFooter";
 import PlayerMobile from "./components/PlayerMobile";
+import PlayerDesktop from "./components/PlayerDesktop";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Releases />
           <Explore />
           <MyFooter />
+          <PlayerDesktop />
         </div>
       </div>
       <PlayerMobile id="playerMobile" />
