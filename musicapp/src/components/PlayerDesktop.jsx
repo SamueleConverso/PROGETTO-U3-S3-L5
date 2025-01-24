@@ -9,9 +9,7 @@ function PlayerDesktop() {
       <div className="row">
         <div className="col-4">
           <Icon.PlayFill style={{ color: "gray", fontSize: "22px" }} />
-          <Icon.FastForwardFill
-            style={{ color: "gray", marginLeft: "10px", fontSize: "22px" }}
-          />
+          <Icon.FastForwardFill style={{ color: "gray", fontSize: "22px" }} />
         </div>
         <div className="col-4"></div>
         <div className="col-4"></div>
