@@ -54,10 +54,10 @@ function News() {
                   width="100%"
                   style={{ borderRadius: "10px" }}
                 />
-                <p>
-                  Pròlogo con Abuelo
-                  <Icon.ExplicitFill />
-                </p>
+                <div className="d-flex justify-content-between">
+                  <p className="m-0">Pròlogo con Abuelo</p>
+                  <Icon.ExplicitFill className=" align-self-center" />
+                </div>
               </div>
               <div className="col-4"></div>
               <div className="col-4"></div>
