@@ -47,44 +47,8 @@ function News() {
           </div>
 
           <div className="container-fluid">
-            <div className="d-block d-lg-none">
+            <div>
               <div className="row">
-                <div className="col-4">
-                  <img
-                    src="../../public/assets/img/2a.png"
-                    width="100%"
-                    style={{ borderRadius: "10px" }}
-                  />
-                  <div className="d-flex justify-content-between">
-                    <p className="m-0">Pròlogo con Abuelo</p>
-                    <Icon.ExplicitFill className=" align-self-center" />
-                  </div>
-                </div>
-                <div className="col-4">
-                  <img
-                    src="../../public/assets/img/2b.png"
-                    width="100%"
-                    style={{ borderRadius: "10px" }}
-                  />
-                  <div className="d-flex justify-content-between">
-                    <p className="m-0">The Wanderer</p>
-                  </div>
-                </div>
-                <div className="col-4">
-                  <img
-                    src="../../public/assets/img/2c.png"
-                    width="100%"
-                    style={{ borderRadius: "10px" }}
-                  />
-                  <div className="d-flex justify-content-between">
-                    <p className="m-0">Michael Bublé & Carly Pearce</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="d-none d-lg-block">
-              <div className="row" width="100%">
                 <div className="col">
                   <img
                     src="../../public/assets/img/2a.png"
@@ -116,7 +80,7 @@ function News() {
                     <p className="m-0">Michael Bublé & Carly Pearce</p>
                   </div>
                 </div>
-                <div className="col">
+                <div className="col d-none d-lg-block">
                   <img
                     src="../../public/assets/img/2d.png"
                     width="100%"
