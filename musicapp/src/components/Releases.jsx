@@ -11,7 +11,7 @@ function Releases() {
   window.addEventListener("resize", updateSongs);
 
   function updateSongs() {
-    console.log()
+    console.log(window.innerWidth);
   }
 
   const getSongs = async () => {
