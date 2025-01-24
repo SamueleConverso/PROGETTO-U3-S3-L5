@@ -10,7 +10,7 @@ function MyNavbar() {
       data-bs-theme="dark"
     >
       <Container fluid className="justify-content-around">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" id="navToggler" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0" />
         {/* <Icon.List
           as={Navbar.Toggle}
           className="text-danger"
