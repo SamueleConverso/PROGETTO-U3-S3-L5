@@ -12,3 +12,7 @@ body {
 .navbar-toggler-icon {
   --bs-navbar-toggler-icon-bg: url("../public/assets/img/ListIcon.svg") !important;
 }
+
+#navToggler.navbar-toggler {
+  border: 0;
+}
