@@ -1,4 +1,5 @@
 import * as Icon from "react-bootstrap-icons";
+import Song from "./Song";
 
 function Releases() {
   return (
