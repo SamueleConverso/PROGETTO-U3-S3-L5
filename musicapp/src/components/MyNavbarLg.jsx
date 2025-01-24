@@ -1,6 +1,8 @@
 //import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 //import * as Icon from "react-bootstrap-icons";
 
+import { Form } from "react-bootstrap";
+
 function MyNavbarLg() {
   return (
     // <Navbar
@@ -42,14 +44,22 @@ function MyNavbarLg() {
     //   <p className="text-danger mb-0">Accedi</p>
     // </Navbar>
     <>
-      <div style={{ backgroundColor: "#252526", width: "200px" }}>
-        <p className="text-white mb-0 d-flex">
-          <img
-            src="../../public/assets/img/apple.svg"
-            className="align-middle"
-          />
-          Music
-        </p>
+      <div
+        style={{ backgroundColor: "#252526", width: "200px", height: "100vh" }}
+      >
+        <div>
+          <p className="text-white mb-0 d-flex">
+            <img
+              src="../../public/assets/img/apple.svg"
+              className="align-middle"
+            />
+            Music
+          </p>
+        </div>
+
+        <div>
+          <Form.Control type="search"></Form.Control>
+        </div>
       </div>
     </>
   );
