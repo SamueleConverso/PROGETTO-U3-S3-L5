@@ -80,6 +80,8 @@ function MyNavbarLg() {
                 backgroundColor: "transparent",
                 color: "white",
                 border: "0",
+                outline: "none",
+                boxShadow: "none",
               }}
             ></Form.Control>
           </div>
