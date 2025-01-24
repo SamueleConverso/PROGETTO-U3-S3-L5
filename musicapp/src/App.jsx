@@ -15,7 +15,7 @@ function App() {
           <MyNavbar />
           <MyNavbarLg />
         </div>
-        <div>
+        <div style={{ marginLeft: "200px" }}>
           <News />
           <Releases />
           <Explore />
