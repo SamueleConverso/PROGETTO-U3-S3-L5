@@ -7,6 +7,7 @@ import News from "./components/News";
 import Releases from "./components/Releases";
 import Explore from "./components/Explore";
 import MyFooter from "./components/MyFooter";
+import PlayerMobile from "./components/PlayerMobile";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Releases />
           <Explore />
           <MyFooter />
+          <PlayerMobile />
         </div>
       </div>
     </>
