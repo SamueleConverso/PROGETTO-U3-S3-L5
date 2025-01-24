@@ -10,6 +10,7 @@ function PlayerDesktop() {
         top: "0",
         padding: "4px",
         width: "calc(100vw - 222px)",
+        maxWidth: "1540px",
       }}
     >
       <div className="row">
