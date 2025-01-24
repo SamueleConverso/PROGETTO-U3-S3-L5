@@ -73,11 +73,11 @@ function MyNavbarLg() {
               Home
             </li>
             <li className="d-flex">
-              <Icon.House className="text-danger align-self-center" />
+              <Icon.Grid className="text-danger align-self-center" />
               Novità
             </li>
             <li className="d-flex">
-              <Icon.House className="text-danger align-self-center" />
+              <Icon.Broadcast className="text-danger align-self-center" />
               Radio
             </li>
           </ul>
