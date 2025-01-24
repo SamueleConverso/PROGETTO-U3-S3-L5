@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 function Releases() {
   const [songs, setSongs] = useState();
+  const [songsToDisplay, setSongsToDisplay] = useState();
 
   const URL =
     "https://striveschool-api.herokuapp.com/api/deezer/search?q=lady%20gaga";
@@ -16,7 +17,8 @@ function Releases() {
       const slicedSongs = isScreenTooLarge
         ? songs.slice(0, 10)
         : songs.slice(0, 6);
-      console.log(slicedSongs);
+      //console.log(slicedSongs);
+      setSongsToDisplay(slicedSongs);
     }
   }
 
@@ -48,8 +50,8 @@ function Releases() {
 
       <div className="container-fluid">
         <div className="row">
-          {songs &&
-            songs.map((song) => {
+          {songsToDisplay &&
+            songsToDisplay.map((song) => {
               return <Song key={song.id} song={song} />;
             })}
         </div>
