@@ -43,9 +43,18 @@ function MyNavbar() {
               ></Form.Control>
             </div>
           </div>
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Novità</Nav.Link>
-          <Nav.Link href="#link">Radio</Nav.Link>
+          <div className="d-flex gap-3">
+            <Icon.House className="text-danger align-self-center ms-2" />
+            <Nav.Link href="#home">Home</Nav.Link>
+          </div>
+          <div className="d-flex gap-3">
+            <Icon.Grid className="text-danger align-self-center ms-2" />
+            <Nav.Link href="#home">Novità</Nav.Link>
+          </div>
+          <div className="d-flex gap-3">
+            <Icon.Broadcast className="text-danger align-self-center ms-2" />
+            <Nav.Link href="#home">Radio</Nav.Link>
+          </div>
         </Nav>
       </Navbar.Collapse>
       <p className="text-white mb-0 d-flex">
