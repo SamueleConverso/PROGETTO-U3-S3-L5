@@ -1,13 +1,14 @@
+/* eslint-disable react/prop-types */
 import { Col } from "react-bootstrap";
 
-function Song() {
+function Song(props) {
   return (
     <>
       <Col>
-        <img src="" />
+        <img src={props.song.md5_image} />
         <div className="text-white">
-          <p>Song title</p>
-          <p>Artist name</p>
+          <p>{props.song.title}</p>
+          <p>{props.song.artist.name}</p>
         </div>
       </Col>
     </>
