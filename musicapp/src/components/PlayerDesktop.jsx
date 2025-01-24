@@ -39,7 +39,10 @@ function PlayerDesktop() {
           className="col-4 d-flex justify-content-center"
           style={{ backgroundColor: "#4D4D4D" }}
         >
-          <img src="../../public/assets/img/apple.svg" />
+          <img
+            src="../../public/assets/img/apple.svg"
+            style={{ width: "16px" }}
+          />
         </div>
         <div className="col-4 d-flex justify-content-center gap-3">
           <Icon.VolumeUpFill
