@@ -8,7 +8,7 @@ import News from "./components/News";
 function App() {
   return (
     <>
-      <div className="d-flex">
+      <div className="d-lg-flex">
         <div>
           <MyNavbar />
           <MyNavbarLg />
