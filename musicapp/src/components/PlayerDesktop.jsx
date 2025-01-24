@@ -7,7 +7,7 @@ function PlayerDesktop() {
       style={{ backgroundColor: "#2C2C2C", position: "fixed", top: "0" }}
     >
       <div className="row">
-        <div className="col-4 d-flex gap-2">
+        <div className="col-4 d-flex justify-content-center gap-2">
           <Icon.Shuffle
             className="align-self-center"
             style={{ color: "gray", fontSize: "12px" }}
@@ -20,7 +20,7 @@ function PlayerDesktop() {
             style={{ color: "gray", fontSize: "12px" }}
           />
         </div>
-        <div className="col-4">
+        <div className="col-4 d-flex justify-content-center">
           <img src="../../public/assets/img/apple.svg" />
         </div>
         <div className="col-4"></div>
