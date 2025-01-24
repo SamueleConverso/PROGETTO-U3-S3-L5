@@ -4,7 +4,12 @@ function PlayerDesktop() {
   return (
     <div
       className="container-fluid d-none d-lg-block"
-      style={{ backgroundColor: "#2C2C2C", position: "fixed", top: "0" }}
+      style={{
+        backgroundColor: "#2C2C2C",
+        position: "fixed",
+        top: "0",
+        padding: "4px",
+      }}
     >
       <div className="row">
         <div className="col-4 d-flex justify-content-center gap-2">
@@ -20,7 +25,10 @@ function PlayerDesktop() {
             style={{ color: "gray", fontSize: "12px" }}
           />
         </div>
-        <div className="col-4 d-flex justify-content-center" style={{backgroundColor:""}}>
+        <div
+          className="col-4 d-flex justify-content-center"
+          style={{ backgroundColor: "#4D4D4D" }}
+        >
           <img src="../../public/assets/img/apple.svg" />
         </div>
         <div className="col-4 d-flex justify-content-center"></div>
