@@ -84,8 +84,8 @@ function News() {
             </div>
 
             <div className="d-none d-lg-block">
-              <div className="row width="">
-                <div className="" width="20%">
+              <div className="row" width="100%">
+                <div className="col">
                   <img
                     src="../../public/assets/img/2a.png"
                     width="100%"
@@ -96,7 +96,7 @@ function News() {
                     <Icon.ExplicitFill className=" align-self-center" />
                   </div>
                 </div>
-                <div className="" width="20%">
+                <div className="col">
                   <img
                     src="../../public/assets/img/2b.png"
                     width="100%"
@@ -106,9 +106,29 @@ function News() {
                     <p className="m-0">The Wanderer</p>
                   </div>
                 </div>
-                <div className="" width="20%">
+                <div className="col">
                   <img
                     src="../../public/assets/img/2c.png"
+                    width="100%"
+                    style={{ borderRadius: "10px" }}
+                  />
+                  <div className="d-flex justify-content-between">
+                    <p className="m-0">Michael Bublé & Carly Pearce</p>
+                  </div>
+                </div>
+                <div className="col">
+                  <img
+                    src="../../public/assets/img/2d.png"
+                    width="100%"
+                    style={{ borderRadius: "10px" }}
+                  />
+                  <div className="d-flex justify-content-between">
+                    <p className="m-0">Michael Bublé & Carly Pearce</p>
+                  </div>
+                </div>
+                <div className="col">
+                  <img
+                    src="../../public/assets/img/2e.png"
                     width="100%"
                     style={{ borderRadius: "10px" }}
                   />
