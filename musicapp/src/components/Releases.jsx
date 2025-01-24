@@ -13,7 +13,10 @@ function Releases() {
   function updateSongs() {
     if (songs) {
       const isScreenTooLarge = window.innerWidth >= 992;
-      console.log(isScreenTooLarge);
+      const slicedSongs = isScreenTooLarge
+        ? songs.slice(0, 10)
+        : songs.slice(0, 6);
+      console.log(slicedSongs);
     }
   }
 
