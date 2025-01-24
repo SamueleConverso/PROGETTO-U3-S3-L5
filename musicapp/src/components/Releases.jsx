@@ -11,7 +11,8 @@ function Releases() {
   window.addEventListener("resize", updateSongs);
 
   function updateSongs() {
-    console.log(window.innerWidth);
+    const isScreenTooLarge = window.innerWidth > 992;
+    console.log(isScreenTooLarge);
   }
 
   const getSongs = async () => {
