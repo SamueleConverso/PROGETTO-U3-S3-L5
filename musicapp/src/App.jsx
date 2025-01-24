@@ -4,6 +4,7 @@ import "./style.css";
 import MyNavbar from "./components/MyNavbar";
 import MyNavbarLg from "./components/MyNavbarLg";
 import News from "./components/News";
+import Releases from "./components/Releases";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </div>
         <div>
           <News />
+          <Releases />
         </div>
       </div>
     </>

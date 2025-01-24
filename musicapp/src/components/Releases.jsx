@@ -3,7 +3,7 @@ import * as Icon from "react-bootstrap-icons";
 function Releases() {
   return (
     <>
-      <div>
+      <div className="container text-white mt-3">
         <p>
           Nuove uscite
           <Icon.ArrowRight className="ms-2" />
