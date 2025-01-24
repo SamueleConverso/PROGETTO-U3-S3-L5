@@ -71,7 +71,7 @@ function MyNavbarLg() {
               borderRadius: "6px",
             }}
           >
-            <Icon.Search className="text-danger align-self-center" />
+            <Icon.Search className="text-danger align-self-center ms-2" />
             <Form.Control
               type="search"
               placeholder="Cerca"
@@ -89,15 +89,15 @@ function MyNavbarLg() {
         <div>
           <ul className="text-white list-unstyled">
             <li className="d-flex gap-1 itemNavLg">
-              <Icon.House className="text-danger align-self-center" />
+              <Icon.House className="text-danger align-self-center ms-2" />
               Home
             </li>
             <li className="d-flex gap-1 itemNavLg">
-              <Icon.Grid className="text-danger align-self-center" />
+              <Icon.Grid className="text-danger align-self-center ms-2" />
               Novità
             </li>
             <li className="d-flex gap-1 itemNavLg">
-              <Icon.Broadcast className="text-danger align-self-center" />
+              <Icon.Broadcast className="text-danger align-self-center ms-2" />
               Radio
             </li>
           </ul>
