@@ -24,8 +24,9 @@ function News() {
             <div className="col-6">
               <p style={{ fontSize: "10px" }}>NUOVA STAZIONE RADIO</p>
               <p style={{ fontSize: "12px" }}>
-                Rilassati, al resto pensiamo noi. <br /> Ascolta Apple Muisc
-                Chill
+                Ecco la nuova casa della musica latina
+                <br />
+                &nbsp;
               </p>
               <img
                 src="../../public/assets/img/1b.png"
