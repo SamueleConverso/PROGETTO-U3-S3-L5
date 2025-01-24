@@ -41,8 +41,13 @@ function PlayerDesktop() {
         >
           <img src="../../public/assets/img/apple.svg" />
         </div>
-        <div className="col-4 d-flex justify-content-center">
+        <div className="col-4 d-flex justify-content-center gap-3">
+          <Icon.VolumeUpFill
+            className="align-self-center"
+            style={{ color: "gray", fontSize: "22px" }}
+          />
           <input type="range" />
+          <p className="m-0 p-0 btn btn-danger text-white p-1">Accedi</p>
         </div>
       </div>
     </div>
