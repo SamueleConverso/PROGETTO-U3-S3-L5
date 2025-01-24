@@ -8,6 +8,10 @@ function PlayerMobile() {
         backgroundColor: "#242424",
         position: "fixed",
         bottom: "0",
+        left: "50%",
+        transform: "translateX(-50%)",
+        width: "90%",
+        maxWidth: "500px",
       }}
     >
       <Icon.MusicNoteBeamed style={{ color: "gray" }} />
