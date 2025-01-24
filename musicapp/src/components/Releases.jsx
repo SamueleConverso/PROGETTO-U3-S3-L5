@@ -30,6 +30,8 @@ function Releases() {
         const data = await response.json();
         console.log(data);
         setSongs(data.data);
+      } else {
+        throw new Error("ERRORE");
       }
     } catch (error) {
       console.log(error);
