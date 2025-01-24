@@ -45,10 +45,10 @@ function MyNavbarLg() {
     // </Navbar>
     <>
       <div
-        className="d-none d-lg-block"
+        className="d-none d-lg-block p-3"
         style={{ backgroundColor: "#252526", width: "200px", height: "100vh" }}
       >
-        <div>
+        <div className="mb-2">
           <p className="text-white mb-0 d-flex">
             <img
               src="../../public/assets/img/apple.svg"
@@ -58,7 +58,7 @@ function MyNavbarLg() {
           </p>
         </div>
 
-        <div>
+        <div className="mb-2">
           <Form.Control
             type="search"
             placeholder="Cerca"
