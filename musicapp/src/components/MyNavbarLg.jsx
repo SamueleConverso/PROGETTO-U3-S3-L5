@@ -73,15 +73,15 @@ function MyNavbarLg() {
 
         <div>
           <ul className="text-white list-unstyled">
-            <li className="d-flex gap-1" style>
+            <li className="d-flex gap-1 itemNavLg">
               <Icon.House className="text-danger align-self-center" />
               Home
             </li>
-            <li className="d-flex gap-1">
+            <li className="d-flex gap-1 itemNavLg">
               <Icon.Grid className="text-danger align-self-center" />
               Novità
             </li>
-            <li className="d-flex gap-1">
+            <li className="d-flex gap-1 itemNavLg">
               <Icon.Broadcast className="text-danger align-self-center" />
               Radio
             </li>
