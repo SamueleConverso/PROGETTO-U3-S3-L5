@@ -9,7 +9,7 @@ function PlayerDesktop() {
         position: "fixed",
         top: "0",
         padding: "4px",
-        width: "calc(100vw - 200px)",
+        width: "calc(100vw - 222px)",
       }}
     >
       <div className="row">
