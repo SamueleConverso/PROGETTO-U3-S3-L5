@@ -1,5 +1,6 @@
 import { Navbar, Nav } from "react-bootstrap";
-//import * as Icon from "react-bootstrap-icons";
+import * as Icon from "react-bootstrap-icons";
+import { Form } from "react-bootstrap";
 
 function MyNavbar() {
   return (
@@ -20,8 +21,31 @@ function MyNavbar() {
 
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
+          <div className="mb-2 mt-2">
+            <div
+              className="d-flex gap-1"
+              style={{
+                backgroundColor: "#1F1F1F",
+                borderRadius: "6px",
+              }}
+            >
+              <Icon.Search className="text-danger align-self-center ms-2" />
+              <Form.Control
+                type="search"
+                placeholder="Cerca"
+                style={{
+                  backgroundColor: "transparent",
+                  color: "white",
+                  border: "0",
+                  outline: "none",
+                  boxShadow: "none",
+                }}
+              ></Form.Control>
+            </div>
+          </div>
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#link">Novità</Nav.Link>
+          <Nav.Link href="#link">Radio</Nav.Link>
         </Nav>
       </Navbar.Collapse>
       <p className="text-white mb-0 d-flex">
