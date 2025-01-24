@@ -10,7 +10,8 @@ function MyNavbar() {
     >
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Brand href="#home">Music</Navbar.Brand>
+        {/* <Navbar.Brand href="#home">Music</Navbar.Brand> */}
+
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
@@ -28,6 +29,13 @@ function MyNavbar() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
+        <p className="h1 text-white mb-0 d-flex">
+          <img
+            src="../../public/assets/img/apple.svg"
+            className="align-middle"
+          />
+          Music
+        </p>
       </Container>
     </Navbar>
   );
