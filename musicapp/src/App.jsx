@@ -5,6 +5,7 @@ import MyNavbar from "./components/MyNavbar";
 import MyNavbarLg from "./components/MyNavbarLg";
 import News from "./components/News";
 import Releases from "./components/Releases";
+import Explore from "./components/Explore";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <div>
           <News />
           <Releases />
+          <Explore />
         </div>
       </div>
     </>
