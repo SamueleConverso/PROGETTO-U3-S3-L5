@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import * as Icon from "react-bootstrap-icons";
 import Song from "./Song";
 import { useEffect, useState } from "react";
@@ -9,7 +10,7 @@ function Releases() {
   const URL =
     "https://striveschool-api.herokuapp.com/api/deezer/search?q=lady%20gaga";
 
-  window.addEventListener("resize", updateSongs);
+  //window.addEventListener("resize", updateSongs);
 
   function updateSongs() {
     if (songs) {
@@ -17,7 +18,7 @@ function Releases() {
       const slicedSongs = isScreenTooLarge
         ? songs.slice(0, 10)
         : songs.slice(0, 6);
-      //console.log(slicedSongs);
+      console.log(slicedSongs);
       setSongsToDisplay(slicedSongs);
     }
   }
@@ -38,6 +39,12 @@ function Releases() {
   useEffect(() => {
     getSongs();
   }, []);
+
+  useEffect(() => {
+    updateSongs();
+    window.addEventListener("resize", updateSongs);
+    return () => window.removeEventListener("resize", updateSongs);
+  }, [songs]);
 
   return (
     <div className="container">
