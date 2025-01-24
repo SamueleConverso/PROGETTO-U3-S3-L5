@@ -42,7 +42,7 @@ function MyNavbarLg() {
     //   <p className="text-danger mb-0">Accedi</p>
     // </Navbar>
     <>
-      <div style={{ "background-color": "#252526", width: "100px" }}>
+      <div style={{ backgroundColor: "#252526", width: "200px" }}>
         <p className="text-white mb-0 d-flex">
           <img
             src="../../public/assets/img/apple.svg"
