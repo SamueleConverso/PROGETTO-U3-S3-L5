@@ -3,7 +3,7 @@ import * as Icon from "react-bootstrap-icons";
 function PlayerMobile() {
   return (
     <div
-      className="container d-block d-lg-none"
+      className="container d-block d-lg-none mb-2"
       style={{
         backgroundColor: "#242424",
         position: "fixed",
@@ -14,7 +14,7 @@ function PlayerMobile() {
         maxWidth: "500px",
         borderRadius: "10px",
         padding: "6px",
-        border: "1px solid black",
+        border: "2px solid black",
       }}
     >
       <Icon.MusicNoteBeamed
