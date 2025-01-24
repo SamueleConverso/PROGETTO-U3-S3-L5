@@ -18,9 +18,18 @@ function PlayerDesktop() {
             className="align-self-center"
             style={{ color: "gray", fontSize: "12px" }}
           />
-          <Icon.SkipBackwardFill style={{ color: "gray", fontSize: "22px" }} />
-          <Icon.PlayFill style={{ color: "gray", fontSize: "22px" }} />
-          <Icon.FastForwardFill style={{ color: "gray", fontSize: "22px" }} />
+          <Icon.SkipBackwardFill
+            className="align-self-center"
+            style={{ color: "gray", fontSize: "22px" }}
+          />
+          <Icon.PlayFill
+            className="align-self-center"
+            style={{ color: "gray", fontSize: "22px" }}
+          />
+          <Icon.FastForwardFill
+            className="align-self-center"
+            style={{ color: "gray", fontSize: "22px" }}
+          />
           <Icon.Repeat
             className="align-self-center"
             style={{ color: "gray", fontSize: "12px" }}
@@ -33,7 +42,7 @@ function PlayerDesktop() {
           <img src="../../public/assets/img/apple.svg" />
         </div>
         <div className="col-4 d-flex justify-content-center">
-          <input />
+          <input type="range" />
         </div>
       </div>
     </div>
