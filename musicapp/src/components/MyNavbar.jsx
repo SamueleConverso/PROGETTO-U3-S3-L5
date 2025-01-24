@@ -32,7 +32,7 @@ function MyNavbar() {
               <Icon.Search className="text-danger align-self-center ms-2" />
               <Form.Control
                 type="search"
-                placeholder="Cerca"
+                placeholder="Cerca..."
                 style={{
                   backgroundColor: "transparent",
                   color: "white",
