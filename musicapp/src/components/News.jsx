@@ -14,7 +14,7 @@ function News() {
             <div className="row">
               <div className="col-6">
                 <p style={{ fontSize: "10px" }}>NUOVA STAZIONE RADIO</p>
-                <p style={{ fontSize: "12px" }}>
+                <p style={{ fontSize: "12px", minHeight: "44px" }}>
                   Rilassati, al resto pensiamo noi. Ascolta Apple Muisc Chill
                 </p>
                 <img
@@ -25,7 +25,7 @@ function News() {
               </div>
               <div className="col-6">
                 <p style={{ fontSize: "10px" }}>NUOVA STAZIONE RADIO</p>
-                <p style={{ fontSize: "12px" }}>
+                <p style={{ fontSize: "12px", minHeight: "44px" }}>
                   Ecco la nuova casa della musica latina
                 </p>
                 <img
