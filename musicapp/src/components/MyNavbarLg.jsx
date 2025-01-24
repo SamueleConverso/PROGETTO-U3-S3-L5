@@ -1,5 +1,5 @@
 //import { Navbar, Nav, NavDropdown } from "react-bootstrap";
-//import * as Icon from "react-bootstrap-icons";
+import * as Icon from "react-bootstrap-icons";
 
 import { Form } from "react-bootstrap";
 
@@ -45,6 +45,7 @@ function MyNavbarLg() {
     // </Navbar>
     <>
       <div
+        className="d-none d-lg-block"
         style={{ backgroundColor: "#252526", width: "200px", height: "100vh" }}
       >
         <div>
@@ -66,10 +67,19 @@ function MyNavbarLg() {
         </div>
 
         <div>
-          <ul>
-            <li>Home</li>
-            <li></li>
-            <li></li>
+          <ul className="text-white list-unstyled">
+            <li className="d-flex">
+              <Icon.House className="text-danger align-self-center" />
+              Home
+            </li>
+            <li className="d-flex">
+              <Icon.House className="text-danger align-self-center" />
+              Novità
+            </li>
+            <li className="d-flex">
+              <Icon.House className="text-danger align-self-center" />
+              Radio
+            </li>
           </ul>
         </div>
       </div>
