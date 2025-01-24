@@ -5,9 +5,9 @@ import { Form } from "react-bootstrap";
 function MyNavbar() {
   return (
     <Navbar
+      style={{ backgroundColor: "#2E2E2E" }}
       expand="lg"
-      className="bg-body-tertiary d-flex px-5 d-block d-lg-none"
-      bg="dark"
+      className="d-flex px-5 d-block d-lg-none"
       data-bs-theme="dark"
     >
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0" />
