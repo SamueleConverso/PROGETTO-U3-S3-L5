@@ -22,9 +22,9 @@ function App() {
           <Releases />
           <Explore />
           <MyFooter />
-          <PlayerMobile />
         </div>
       </div>
+      <PlayerMobile id="playerMobile" />
     </>
   );
 }
