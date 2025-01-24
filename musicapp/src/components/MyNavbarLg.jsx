@@ -67,7 +67,7 @@ function MyNavbarLg() {
           <Form.Control
             type="search"
             placeholder="Cerca"
-            className="text-white"
+            style={{ backgroundColor: "#1F1F1F" }}
           ></Form.Control>
         </div>
 
