@@ -9,7 +9,7 @@ function MyNavbar() {
       bg="dark"
       data-bs-theme="dark"
     >
-      <Container fluid className="justify-content-around">
+      <div className="d-flex">
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0" />
         {/* <Icon.List
           as={Navbar.Toggle}
@@ -36,14 +36,14 @@ function MyNavbar() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-        <p className="h1 text-white mb-0 d-flex">
+        <p className="text-white mb-0 d-flex">
           <img
             src="../../public/assets/img/apple.svg"
             className="align-middle"
           />
           Music
         </p>
-      </Container>
+      </div>
     </Navbar>
   );
 }
