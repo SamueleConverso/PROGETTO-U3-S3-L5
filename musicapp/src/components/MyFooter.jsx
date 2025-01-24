@@ -1,8 +1,11 @@
 function MyFooter() {
   return (
-    <>
-      <p></p>
-    </>
+    <div
+      className="container text-white"
+      style={{ backgroundColor: "#323232" }}
+    >
+      <p>Italia</p>
+    </div>
   );
 }
 
