@@ -1,11 +1,11 @@
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 //import * as Icon from "react-bootstrap-icons";
 
-function MyNavbar() {
+function MyNavbarLg() {
   return (
     <Navbar
       expand="lg"
-      className="bg-body-tertiary d-flex px-5 d-block d-lg-none"
+      className="bg-body-tertiary d-flex px-5 d-none d-lg-block"
       bg="dark"
       data-bs-theme="dark"
     >
@@ -44,4 +44,4 @@ function MyNavbar() {
   );
 }
 
-export default MyNavbar;
+export default MyNavbarLg;
