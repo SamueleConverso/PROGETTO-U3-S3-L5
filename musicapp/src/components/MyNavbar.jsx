@@ -57,10 +57,15 @@ function MyNavbar() {
           </div>
         </Nav>
       </Navbar.Collapse>
-      <p className="text-white mb-0 d-flex">
-        <img src="../../public/assets/img/apple.svg" className="align-middle" />
-        Music
-      </p>
+      <div className="ms-1 mt-1">
+        <p className="text-white mb-0 d-flex">
+          <img
+            src="../../public/assets/img/apple.svg"
+            className="align-middle"
+          />
+          Music
+        </p>
+      </div>
       <p className="text-danger mb-0">Accedi</p>
     </Navbar>
   );
