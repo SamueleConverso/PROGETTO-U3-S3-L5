@@ -1,5 +1,9 @@
 function MyFooter() {
-  return;
+  return (
+    <>
+      <p></p>
+    </>
+  );
 }
 
 export default MyFooter;
