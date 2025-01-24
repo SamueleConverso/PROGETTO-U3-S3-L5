@@ -2,13 +2,17 @@ import * as Icon from "react-bootstrap-icons";
 import Song from "./Song";
 import { useEffect, useState } from "react";
 
-window.addEventListener('resize', updateDisplayedSongs);
-
 function Releases() {
   const [songs, setSongs] = useState();
 
   const URL =
     "https://striveschool-api.herokuapp.com/api/deezer/search?q=lady%20gaga";
+
+  window.addEventListener("resize", updateSongs);
+
+  function updateSongs() {
+    console.log()
+  }
 
   const getSongs = async () => {
     try {
