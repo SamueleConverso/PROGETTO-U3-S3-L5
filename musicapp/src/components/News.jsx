@@ -87,17 +87,19 @@ function News() {
                     style={{ borderRadius: "10px" }}
                   />
                   <div className="d-flex justify-content-between">
-                    <p className="m-0">Michael Bublé & Carly Pearce</p>
+                    <p className="m-0">
+                      Stefan Moccio: The Zane Lowe Interview
+                    </p>
                   </div>
                 </div>
-                <div className="col">
+                <div className="col d-none d-lg-block">
                   <img
                     src="../../public/assets/img/2e.png"
                     width="100%"
                     style={{ borderRadius: "10px" }}
                   />
                   <div className="d-flex justify-content-between">
-                    <p className="m-0">Michael Bublé & Carly Pearce</p>
+                    <p className="m-0">Chart Spotlight: Julia Michaels</p>
                   </div>
                 </div>
               </div>
