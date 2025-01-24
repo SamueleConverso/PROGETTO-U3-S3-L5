@@ -12,6 +12,7 @@ function PlayerMobile() {
         transform: "translateX(-50%)",
         width: "90%",
         maxWidth: "500px",
+        borderRadius: "10px",
       }}
     >
       <Icon.MusicNoteBeamed style={{ color: "gray" }} />
