@@ -13,6 +13,12 @@ function MyFooter() {
       <p className="m-0">
         Copyright &copy; 2024 Apple Inc. Tutti i diritti riservati.
       </p>
+
+      <p>Condizioni dei servizi internet</p>
+      <p>Apple Music e privacy</p>
+      <p>Avviso sui cookie</p>
+      <p>Supporto</p>
+      <p>Feedback</p>
     </div>
   );
 }
