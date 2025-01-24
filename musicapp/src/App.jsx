@@ -8,14 +8,6 @@ import Releases from "./components/Releases";
 import Explore from "./components/Explore";
 
 function App() {
-  function setMargin() {
-    if (window.innerWidth >= 992) {
-      let style = {
-        marginLeft: "200px",
-      };
-      return style;
-    }
-  }
   return (
     <>
       <div className="d-lg-flex">
@@ -23,7 +15,7 @@ function App() {
           <MyNavbar />
           <MyNavbarLg />
         </div>
-        <div style={setMargin()}>
+        <div id="wrapper">
           <News />
           <Releases />
           <Explore />

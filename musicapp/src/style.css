@@ -16,3 +16,9 @@ body {
 #navToggler.navbar-toggler {
   border: 0;
 }
+
+@media screen and (min-width: 992px) {
+  #wrapper {
+    margin-left: 200px;
+  }
+}
