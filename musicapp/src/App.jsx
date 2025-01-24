@@ -8,6 +8,13 @@ import Releases from "./components/Releases";
 import Explore from "./components/Explore";
 
 function App() {
+  function setMargin() {
+    if (window.inn)
+    let style = {
+      marginLeft: "200px",
+    };
+    return style;
+  }
   return (
     <>
       <div className="d-lg-flex">
@@ -15,7 +22,7 @@ function App() {
           <MyNavbar />
           <MyNavbarLg />
         </div>
-        <div style={{ marginLeft: "200px" }}>
+        <div style={setMargin()}>
           <News />
           <Releases />
           <Explore />
