@@ -47,36 +47,74 @@ function News() {
           </div>
 
           <div className="container-fluid">
-            <div className="row">
-              <div className="col-4">
-                <img
-                  src="../../public/assets/img/2a.png"
-                  width="100%"
-                  style={{ borderRadius: "10px" }}
-                />
-                <div className="d-flex justify-content-between">
-                  <p className="m-0">Pròlogo con Abuelo</p>
-                  <Icon.ExplicitFill className=" align-self-center" />
+            <div className="d-block d-lg-none">
+              <div className="row">
+                <div className="col-4">
+                  <img
+                    src="../../public/assets/img/2a.png"
+                    width="100%"
+                    style={{ borderRadius: "10px" }}
+                  />
+                  <div className="d-flex justify-content-between">
+                    <p className="m-0">Pròlogo con Abuelo</p>
+                    <Icon.ExplicitFill className=" align-self-center" />
+                  </div>
+                </div>
+                <div className="col-4">
+                  <img
+                    src="../../public/assets/img/2b.png"
+                    width="100%"
+                    style={{ borderRadius: "10px" }}
+                  />
+                  <div className="d-flex justify-content-between">
+                    <p className="m-0">The Wanderer</p>
+                  </div>
+                </div>
+                <div className="col-4">
+                  <img
+                    src="../../public/assets/img/2c.png"
+                    width="100%"
+                    style={{ borderRadius: "10px" }}
+                  />
+                  <div className="d-flex justify-content-between">
+                    <p className="m-0">Michael Bublé & Carly Pearce</p>
+                  </div>
                 </div>
               </div>
-              <div className="col-4">
-                <img
-                  src="../../public/assets/img/2b.png"
-                  width="100%"
-                  style={{ borderRadius: "10px" }}
-                />
-                <div className="d-flex justify-content-between">
-                  <p className="m-0">The Wanderer</p>
+            </div>
+
+            <div className="d-none d-lg-block">
+              <div className="row width="">
+                <div className="" width="20%">
+                  <img
+                    src="../../public/assets/img/2a.png"
+                    width="100%"
+                    style={{ borderRadius: "10px" }}
+                  />
+                  <div className="d-flex justify-content-between">
+                    <p className="m-0">Pròlogo con Abuelo</p>
+                    <Icon.ExplicitFill className=" align-self-center" />
+                  </div>
                 </div>
-              </div>
-              <div className="col-4">
-                <img
-                  src="../../public/assets/img/2c.png"
-                  width="100%"
-                  style={{ borderRadius: "10px" }}
-                />
-                <div className="d-flex justify-content-between">
-                  <p className="m-0">Michael Bublé & Carly Pearce</p>
+                <div className="" width="20%">
+                  <img
+                    src="../../public/assets/img/2b.png"
+                    width="100%"
+                    style={{ borderRadius: "10px" }}
+                  />
+                  <div className="d-flex justify-content-between">
+                    <p className="m-0">The Wanderer</p>
+                  </div>
+                </div>
+                <div className="" width="20%">
+                  <img
+                    src="../../public/assets/img/2c.png"
+                    width="100%"
+                    style={{ borderRadius: "10px" }}
+                  />
+                  <div className="d-flex justify-content-between">
+                    <p className="m-0">Michael Bublé & Carly Pearce</p>
+                  </div>
                 </div>
               </div>
             </div>
