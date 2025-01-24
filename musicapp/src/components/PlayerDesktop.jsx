@@ -1,4 +1,5 @@
 import * as Icon from "react-bootstrap-icons";
+import {Slider}
 
 function PlayerDesktop() {
   return (
@@ -31,7 +32,9 @@ function PlayerDesktop() {
         >
           <img src="../../public/assets/img/apple.svg" />
         </div>
-        <div className="col-4 d-flex justify-content-center"></div>
+        <div className="col-4 d-flex justify-content-center">
+        <Slider aria-label="Volume" value={value} onChange={handleChange} />
+        </div>
       </div>
     </div>
   );
