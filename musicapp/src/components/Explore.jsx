@@ -2,7 +2,7 @@
 function Explore() {
   return (
     <div className="container">
-      <h2 className="text-white">Altro da esplorare</h2>
+      <h3 className="text-white">Altro da esplorare</h3>
       <div className="row row-cols-1 row-cols-lg-3 g-3">
         <div className="col" style={{ cursor: "pointer" }}>
           <div
@@ -90,7 +90,7 @@ function Explore() {
           >
             <div className="d-flex justify-content-between w-100">
               <p className="text-danger m-0" style={{ fontSize: "20px" }}>
-                Esplora per genere&nbsp;&nbsp;&nbsp;
+                Classifiche&nbsp;&nbsp;&nbsp;
               </p>
               <p className="text-danger m-0" style={{ fontSize: "20px" }}>
                 {">"}
@@ -109,7 +109,7 @@ function Explore() {
           >
             <div className="d-flex justify-content-between w-100">
               <p className="text-danger m-0" style={{ fontSize: "20px" }}>
-                Esplora per genere&nbsp;&nbsp;&nbsp;
+                Audio spaziale&nbsp;&nbsp;&nbsp;
               </p>
               <p className="text-danger m-0" style={{ fontSize: "20px" }}>
                 {">"}
@@ -128,7 +128,7 @@ function Explore() {
           >
             <div className="d-flex justify-content-between w-100">
               <p className="text-danger m-0" style={{ fontSize: "20px" }}>
-                Esplora per genere&nbsp;&nbsp;&nbsp;
+                Video musicali&nbsp;&nbsp;&nbsp;
               </p>
               <p className="text-danger m-0" style={{ fontSize: "20px" }}>
                 {">"}
@@ -147,7 +147,7 @@ function Explore() {
           >
             <div className="d-flex justify-content-between w-100">
               <p className="text-danger m-0" style={{ fontSize: "20px" }}>
-                Esplora per genere&nbsp;&nbsp;&nbsp;
+                Nuovi artisti&nbsp;&nbsp;&nbsp;
               </p>
               <p className="text-danger m-0" style={{ fontSize: "20px" }}>
                 {">"}
@@ -166,7 +166,7 @@ function Explore() {
           >
             <div className="d-flex justify-content-between w-100">
               <p className="text-danger m-0" style={{ fontSize: "20px" }}>
-                Esplora per genere&nbsp;&nbsp;&nbsp;
+                Hit del passato&nbsp;&nbsp;&nbsp;
               </p>
               <p className="text-danger m-0" style={{ fontSize: "20px" }}>
                 {">"}
