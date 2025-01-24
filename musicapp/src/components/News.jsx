@@ -45,6 +45,14 @@ function News() {
               <Icon.ArrowRight className="ms-2" />
             </p>
           </div>
+
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-4"></div>
+              <div className="col-4"></div>
+              <div className="col-4"></div>
+            </div>
+          </div>
         </div>
       </div>
     </>
