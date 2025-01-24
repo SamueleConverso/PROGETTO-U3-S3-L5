@@ -13,13 +13,17 @@ function Releases() {
       const response = await fetch(URL);
       if (response.ok) {
         const data = await response.json();
+        console.log(data);
+        setSongs(data);
       }
     } catch (error) {
       console.log(error);
     }
   };
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    getSongs();
+  }, []);
 
   return (
     <div className="container">
