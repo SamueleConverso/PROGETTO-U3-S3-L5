@@ -54,10 +54,11 @@ function MyNavbarLg() {
         }}
       >
         <div className="mb-2">
-          <p className="text-white mb-0 d-flex">
+          <p className="text-white mb-0 d-flex ms-2">
             <img
               src="../../public/assets/img/apple.svg"
               className="align-middle"
+              style={{ width: "14px" }}
             />
             Music
           </p>

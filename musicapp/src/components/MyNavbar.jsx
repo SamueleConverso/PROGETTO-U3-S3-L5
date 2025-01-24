@@ -62,6 +62,7 @@ function MyNavbar() {
           <img
             src="../../public/assets/img/apple.svg"
             className="align-middle"
+            style={{ width: "14px" }}
           />
           Music
         </p>
