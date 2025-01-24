@@ -46,7 +46,12 @@ function MyNavbarLg() {
     <>
       <div
         className="d-none d-lg-block p-3"
-        style={{ backgroundColor: "#252526", width: "200px", height: "100vh" }}
+        style={{
+          backgroundColor: "#252526",
+          width: "200px",
+          height: "100vh",
+          position: "fixed",
+        }}
       >
         <div className="mb-2">
           <p className="text-white mb-0 d-flex">
