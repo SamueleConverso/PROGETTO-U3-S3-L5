@@ -64,13 +64,20 @@ function MyNavbarLg() {
         </div>
 
         <div className="mb-2">
-          <div className="d-flex">
+          <div
+            className="d-flex gap-1"
+            style={{
+              backgroundColor: "#1F1F1F",
+              borderRadius: "6px",
+              padding: "4px",
+            }}
+          >
             <Icon.Search className="text-danger align-self-center" />
             <Form.Control
               type="search"
               placeholder="Cerca"
               style={{
-                backgroundColor: "#1F1F1F",
+                backgroundColor: "transparent",
                 color: "white",
                 border: "0",
               }}
