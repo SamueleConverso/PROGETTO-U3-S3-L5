@@ -47,7 +47,13 @@ function PlayerDesktop() {
             style={{ color: "gray", fontSize: "22px" }}
           />
           <input type="range" />
-          <p className="m-0 p-0 btn btn-danger text-white p-1">Accedi</p>
+          <div className="d-flex btn btn-danger" style={{ cursor: "pointer" }}>
+            <Icon.PersonFill
+              className="align-self-center"
+              style={{ color: "white", fontSize: "22px" }}
+            />
+            <p className="m-0 p-0 text-white">Accedi</p>
+          </div>
         </div>
       </div>
     </div>
