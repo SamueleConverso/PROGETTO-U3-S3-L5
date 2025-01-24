@@ -2,7 +2,7 @@ function Explore() {
   return (
     <div className="container">
       <h2 className="text-white">Altro da esplorare</h2>
-      <div className="row">
+      <div className="row row-cols-lg-4">
         <div className="col">
           <div
             style={{
