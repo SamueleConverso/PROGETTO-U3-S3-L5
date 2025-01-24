@@ -9,11 +9,12 @@ import Explore from "./components/Explore";
 
 function App() {
   function setMargin() {
-    if (window.inn)
-    let style = {
-      marginLeft: "200px",
-    };
-    return style;
+    if (window.innerWidth >= 992) {
+      let style = {
+        marginLeft: "200px",
+      };
+      return style;
+    }
   }
   return (
     <>
