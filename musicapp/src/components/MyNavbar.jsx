@@ -5,7 +5,7 @@ function MyNavbar() {
   return (
     <Navbar
       expand="lg"
-      className="bg-body-tertiary d-flex"
+      className="bg-body-tertiary d-flex px-5"
       bg="dark"
       data-bs-theme="dark"
     >
