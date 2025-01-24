@@ -41,6 +41,7 @@ function Releases() {
   }, []);
 
   useEffect(() => {
+    console.log("sonoqui");
     updateSongs();
     window.addEventListener("resize", updateSongs);
     return () => window.removeEventListener("resize", updateSongs);
