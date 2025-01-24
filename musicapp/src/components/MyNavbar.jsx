@@ -1,5 +1,5 @@
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
-import * as Icon from "react-bootstrap-icons";
+//import * as Icon from "react-bootstrap-icons";
 
 function MyNavbar() {
   return (
@@ -10,8 +10,13 @@ function MyNavbar() {
       data-bs-theme="dark"
     >
       <Container fluid className="justify-content-around">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Icon.List className="text-danger" style={{font-size: "50px"}}/>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" id="navToggler" />
+        {/* <Icon.List
+          as={Navbar.Toggle}
+          className="text-danger"
+          fontSize="44px"
+          aria-controls="basic-navbar-nav"
+        /> */}
         {/* <Navbar.Brand href="#home">Music</Navbar.Brand> */}
 
         <Navbar.Collapse id="basic-navbar-nav">

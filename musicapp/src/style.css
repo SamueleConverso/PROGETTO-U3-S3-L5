@@ -8,3 +8,7 @@ body {
   padding: 0;
   background-color: #1f1f1f;
 }
+
+.navbar-toggler-icon {
+  --bs-navbar-toggler-icon-bg: url("../public/assets/img/ListIcon.svg") !important;
+}
