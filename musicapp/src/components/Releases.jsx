@@ -57,7 +57,7 @@ function Releases() {
       </div>
 
       <div className="container-fluid">
-        <div className="row">
+        <div className="row row-cols-3 row-cols-lg-5">
           {songsToDisplay &&
             songsToDisplay.map((song) => {
               return <Song key={song.id} song={song} />;
