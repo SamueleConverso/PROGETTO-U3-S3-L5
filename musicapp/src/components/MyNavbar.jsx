@@ -8,7 +8,7 @@ function MyNavbar() {
       bg="dark"
       data-bs-theme="dark"
     >
-      <Container>
+      <Container fluid className="justify-content-around">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         {/* <Navbar.Brand href="#home">Music</Navbar.Brand> */}
 
