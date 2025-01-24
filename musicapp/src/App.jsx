@@ -13,7 +13,7 @@ import PlayerDesktop from "./components/PlayerDesktop";
 function App() {
   return (
     <>
-      <div className="d-lg-flex">
+      <div className="d-lg-flex justify-content-center">
         <div>
           <MyNavbar />
           <MyNavbarLg />
