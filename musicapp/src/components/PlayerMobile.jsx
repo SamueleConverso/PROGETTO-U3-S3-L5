@@ -3,7 +3,7 @@ import * as Icon from "react-bootstrap-icons";
 function PlayerMobile() {
   return (
     <div
-      className="container"
+      className="container d-block d-lg-none"
       style={{
         backgroundColor: "#242424",
         position: "fixed",
