@@ -17,15 +17,25 @@ function PlayerMobile() {
         border: "2px solid black",
       }}
     >
-      <Icon.MusicNoteBeamed
-        style={{
-          color: "gray",
-          fontSize: "40px",
-          backgroundColor: "#323232",
-          padding: "6px",
-          borderRadius: "6px",
-        }}
-      />
+      <div className="d-flex justify-content-between">
+        <div>
+          <Icon.MusicNoteBeamed
+            style={{
+              color: "gray",
+              fontSize: "40px",
+              backgroundColor: "#323232",
+              padding: "6px",
+              borderRadius: "6px",
+            }}
+          />
+        </div>
+        <div className="align-content-center">
+          <Icon.PlayFill style={{ color: "gray", fontSize: "22px" }} />
+          <Icon.FastForwardFill
+            style={{ color: "gray", marginLeft: "10px", fontSize: "22px" }}
+          />
+        </div>
+      </div>
     </div>
   );
 }
