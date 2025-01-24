@@ -48,7 +48,17 @@ function News() {
 
           <div className="container-fluid">
             <div className="row">
-              <div className="col-4"></div>
+              <div className="col-4">
+                <img
+                  src="../../public/assets/img/2a.png"
+                  width="100%"
+                  style={{ borderRadius: "10px" }}
+                />
+                <p>
+                  Pròlogo con Abuelo
+                  <Icon.ExplicitFill />
+                </p>
+              </div>
               <div className="col-4"></div>
               <div className="col-4"></div>
             </div>
