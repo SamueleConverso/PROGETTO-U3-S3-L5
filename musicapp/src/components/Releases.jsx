@@ -11,8 +11,10 @@ function Releases() {
   window.addEventListener("resize", updateSongs);
 
   function updateSongs() {
-    const isScreenTooLarge = window.innerWidth > 992;
-    console.log(isScreenTooLarge);
+    if (songs) {
+      const isScreenTooLarge = window.innerWidth >= 992;
+      console.log(isScreenTooLarge);
+    }
   }
 
   const getSongs = async () => {
