@@ -13,9 +13,19 @@ function PlayerMobile() {
         width: "90%",
         maxWidth: "500px",
         borderRadius: "10px",
+        padding: "6px",
+        border: "1px solid black",
       }}
     >
-      <Icon.MusicNoteBeamed style={{ color: "gray" }} />
+      <Icon.MusicNoteBeamed
+        style={{
+          color: "gray",
+          fontSize: "40px",
+          backgroundColor: "#323232",
+          padding: "6px",
+          borderRadius: "6px",
+        }}
+      />
     </div>
   );
 }
