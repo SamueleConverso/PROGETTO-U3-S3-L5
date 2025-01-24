@@ -1,3 +1,5 @@
+import * as Icon from "react-bootstrap-icons";
+
 function News() {
   return (
     <>
@@ -12,7 +14,7 @@ function News() {
             <div className="row">
               <div className="col-6">
                 <p style={{ fontSize: "10px" }}>NUOVA STAZIONE RADIO</p>
-                <p style={{ fontSize: "12px", maxHeight: "32px" }}>
+                <p style={{ fontSize: "12px" }}>
                   Rilassati, al resto pensiamo noi. Ascolta Apple Muisc Chill
                 </p>
                 <img
@@ -33,6 +35,15 @@ function News() {
                 />
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="text-white mt-3">
+          <div>
+            <p>
+              Nuovi episodi radio
+              <Icon.ArrowRight className="ms-2" />
+            </p>
           </div>
         </div>
       </div>
