@@ -1,6 +1,17 @@
+import { useState, useEffect } from "react";
 import * as Icon from "react-bootstrap-icons";
 
 function PlayerDesktop() {
+  const [scrollbarWidth, setScrollbarWidth] = useState(0);
+
+  useEffect(() => {
+    // Calcola la larghezza della scrollbar
+    const scrollWidth =
+      window.innerWidth - document.documentElement.clientWidth;
+    console.log(scrollWidth);
+    setScrollbarWidth(scrollWidth);
+  }, []);
+
   return (
     <div
       className="container-fluid d-none d-lg-block"
@@ -9,7 +20,7 @@ function PlayerDesktop() {
         position: "fixed",
         top: "0",
         padding: "4px",
-        width: "calc(100vw - 200px)",
+        width: `calc(100vw - ${200 + scrollbarWidth}px)`,
       }}
     >
       <div className="row">
