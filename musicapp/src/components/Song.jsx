@@ -5,8 +5,10 @@ function Song() {
     <>
       <Col>
         <img src="" />
-        <p>Song title</p>
-        <p>Artist name</p>
+        <div className="text-white">
+          <p>Song title</p>
+          <p>Artist name</p>
+        </div>
       </Col>
     </>
   );
