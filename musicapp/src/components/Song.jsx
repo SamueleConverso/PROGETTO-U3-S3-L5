@@ -6,7 +6,7 @@ function Song(props) {
     <>
       <Col className="mb-3">
         <img
-          src={props.song.album.cover}
+          src={props.song.album.cover_xl}
           style={{ borderRadius: "10px", width: "100%" }}
         />
         <div className="text-white">
