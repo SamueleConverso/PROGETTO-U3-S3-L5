@@ -20,7 +20,9 @@ function PlayerDesktop() {
             style={{ color: "gray", fontSize: "12px" }}
           />
         </div>
-        <div className="col-4"></div>
+        <div className="col-4">
+          <img src="../../public/assets/img/apple.svg" />
+        </div>
         <div className="col-4"></div>
       </div>
     </div>
