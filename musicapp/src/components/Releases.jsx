@@ -14,7 +14,7 @@ function Releases() {
       if (response.ok) {
         const data = await response.json();
         console.log(data);
-        setSongs(data);
+        setSongs(data.data);
       }
     } catch (error) {
       console.log(error);
@@ -36,7 +36,10 @@ function Releases() {
 
       <div className="container-fluid">
         <div className="row">
-          <Song />
+          {songs &&
+            songs.map((song) => {
+              return <Song key={song.id} song={song} />;
+            })}
         </div>
       </div>
     </div>
